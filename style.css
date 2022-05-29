@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&family=Turret+Road:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+
+body {
+    background-image: url(./fondo.png);
+    background-repeat: repeat;
+    background-size:contain;
+    margin: 0;
+    padding: 0;
+}
+
+.pokedex {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon, .backCard {
+    padding-top: 10px;
+    width: 140px;
+    height: 260px;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin: 1%;
+    font-family: 'McLaren', cursive;
+    border: solid 2px black;
+}
+
+.backCard {
+    padding-left: 30px;
+    align-items: flex-start;
+}
+
+.pokemon-id {
+    margin-bottom: -10%;
+}
+
+.pokemon-name {
+    font-family: 'Turret Road', cursive;
+}
+
+.pokemon-image {
+    width: 80%;
+    height: 45%;
+}
+
+.pokemon-type {
+    background-color: #CFCBC7;
+    padding: 3px;
+    border-radius: 45%;
+}
+
+.feature {
+    margin-bottom: -8%;
+}
+
+.container-weight, .container-height {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.icon-power {
+    margin: 15px 0 -10px;
+}
+
+.container-moves {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-search {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #BBD9E5;
+    padding: 10px 0;
+}
+
+.logo {
+    margin-left: 2%;
+    width: 15%;
+    height: 80%;
+}
+
+.pokemon-search {
+    width: 15%;
+    height: 15px;
+    margin-left: 28%;
+}
+
+.container-filters {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-family: 'McLaren', cursive;
+}
+
+.container-types {
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filter {
+    background-color: #E7E1DA;
+    border-radius: 35%;
+    padding: 10px;
+    cursor: pointer;
+}
